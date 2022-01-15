@@ -1,0 +1,34 @@
+@import "./settings/fonts";
+@import "./settings/colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-base;
+  color: $color-font-primary;
+  min-width: 320px;
+}
+
+.app {
+  position: relative;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1616px;
+  margin: 0 auto;
+}
+
+a,
+button {
+  color: initial;
+  font-family: $font-base;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

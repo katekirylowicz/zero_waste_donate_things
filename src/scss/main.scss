@@ -1,2 +1,11 @@
 @import "./generic/reset";
 @import "./generic/base";
+
+@import "./settings/fonts";
+@import "./settings/colors";
+
+@import "./components/Home.scss";
+@import "./components/HomeThreeColumns.scss";
+@import "./components/HomeAppRules.scss";
+@import "./components/HomeAboutUs.scss";
+@import "./components/HomeContact.scss";
