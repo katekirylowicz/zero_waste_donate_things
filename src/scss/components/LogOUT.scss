@@ -1,0 +1,23 @@
+.logout {
+  padding: 100px;
+  display: grid;
+  place-items: center;
+h5 {
+  font-size:2.5rem;
+  color:#3C3C3C;
+}
+a{
+text-decoration: none;
+}
+}
+.log_button {
+margin-top:40px;
+transition: 0.2s;
+padding:13px 18px;
+color:#3C3C3C;
+border: 1px solid transparent;
+&:hover {
+  border: 1px solid #3C3C3C;
+  transform:scale(1.05);
+}
+}

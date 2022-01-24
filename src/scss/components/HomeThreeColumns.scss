@@ -1,22 +1,22 @@
 .statistics {
-  // background-image: url("../../../assets/3 Columns Background.png");
+  background-image: url("/assets/3 Columns Background.png");
   background-size: cover;
 
-  .statistics_wrapper {
-    width: 1200px;
-    margin: 0 auto;
+  .statistic_wrapper {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
   }
 
   .column {
-    text-align: center;
-    width: 320px;
-    font-weight: 300;
-    margin: 50px 0 70px 0;
     display: flex;
     flex-direction: column;
+    font-weight: 300;
     gap: 20px;
+    margin: 50px 0 70px 0;
+    text-align: center;
+    width: 320px;
 
     .column__num {
       font-size: 3.5rem;
