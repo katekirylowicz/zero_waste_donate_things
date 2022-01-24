@@ -1,0 +1,76 @@
+ //@import "../settings/colors";
+
+#howItWorks {
+  padding: 50px 0;
+
+}
+#howItWorks h2 {
+  font-size:2.375rem;
+  text-align: center;
+}
+#howItWorks .decor {
+  margin-bottom: 40px;
+  margin-left:calc(50vw - 160px);
+  margin-top:45px;
+  transform: scale(0.74);
+}
+
+.about-app {
+  background-color: $color-bg-primary;
+  width: 100vw;
+
+  .about-app__container {
+    background-color: $color-bg-secondary;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-left: 175px;
+    padding-right:175px;
+    width:100vw;
+  }
+
+  .about-app__content {
+    color: $color-font-primary;
+    column-gap: 100px;
+    display: grid;
+    padding: 50px 30px;
+    place-items: center;
+    row-gap: 38px;
+    text-align: center;
+    width: 20%;
+
+    h3 {
+      display: inline-block;
+      font-size: 1.1rem;
+      font-weight: 400;
+      height: 23px;
+    }
+
+    span:before {
+      border:0.75px solid #707070;
+      content: "";
+      display: block;
+      height: 0px;
+      justify-content: baseline;
+      margin: 0 auto 20px auto;
+      width: 70px;
+    }
+  }
+}
+
+#howItWorks .button__container {
+  display: grid;
+  place-items: center;
+  a {
+    text-decoration: none;
+  }
+  .btn {
+    //display:block;
+    margin-top: 30px;
+    color:$color-font-primary;
+    transition:0.2s;
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+}

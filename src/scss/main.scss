@@ -1,2 +1,16 @@
 @import "./generic/reset";
 @import "./generic/base";
+
+@import "./settings/fonts";
+@import "./settings/colors";
+@import "./components/Menu.scss";
+@import "./components/Home.scss";
+@import "./components/HomeThreeColumns.scss";
+@import "./components/HomeAppRules.scss";
+@import "./components/HomeAboutUs.scss";
+@import "./components/WhoWeHelp.scss";
+@import "./components/HomeContact.scss";
+
+@import "./components/register.scss";
+@import "./components/LogIN.scss";
+@import "./components/LogOUT.scss";
