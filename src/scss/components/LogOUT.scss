@@ -10,6 +10,20 @@ a{
 text-decoration: none;
 }
 }
+.log__success {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.log__error {
+  margin-top:3px;
+  font-weight: 600;
+  font-size: 0.7rem;
+   color: rgb(130, 22, 43);
+}
+
+
+
 .log_button {
 margin-top:40px;
 transition: 0.2s;

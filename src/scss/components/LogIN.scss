@@ -13,7 +13,17 @@
   h5 {
     margin: 0 auto;
   }
-
+.log__success {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.log__error {
+  margin-top:3px;
+  font-weight: 600;
+  font-size: 0.7rem;
+   color: rgb(130, 22, 43);
+}
   .form__container {
     width: 500px;
     height:328px;
@@ -31,7 +41,7 @@
         justify-content: left;
       }
 
-      input {
+      .log__input {
         border: none;
         background-color:#F0F1F1 ;
         border-bottom: 1px solid #707070;

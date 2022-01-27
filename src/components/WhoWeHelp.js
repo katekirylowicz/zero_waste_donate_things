@@ -17,8 +17,10 @@ const WhoWeHelp = () => {
 
   return (
     <>
+    <div className ="decor_wrapper">
     <h5 className = "help_header">Komu pomagamy?</h5>
     <img className="decor_help" src="assets/Decoration.svg" alt="decor" />
+    </div>
     <div className="wrapper_btn">
       <button className ="btn_help" onClick={() => { setPage(0); setCategory('fundations'); }} className = "btn_help">Fundacjom</button>
       <button className ="btn_help" onClick={() => { setPage(0); setCategory('nonGovernmentalOrg'); }} className = "btn_help">Organizacjom <br/> pozarządowym</button>

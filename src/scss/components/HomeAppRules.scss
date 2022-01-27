@@ -1,18 +1,46 @@
  //@import "../settings/colors";
 
 #howItWorks {
+  margin-bottom:60px;
   padding: 50px 0;
 
 }
-#howItWorks h2 {
-  font-size:2.375rem;
-  text-align: center;
+.decor_wrapper {
+  display: grid;
+  place-items: center;
+  row-gap: 25px;
+  padding-bottom: 30px;
+  padding-top:60px;
+
+ 
+.h4 {
+  font-size: 2.375rem;
+  font-weight: 400;
+  margin: 0 auto;
+  z-index:11;
+  @media screen and (max-width:1024px) {
+    font-size:1.8rem;
+
+  }
+
+  @media screen and (max-width:752px) {
+    font-size:1.5rem;
+
+  }
+
 }
-#howItWorks .decor {
-  margin-bottom: 40px;
-  margin-left:calc(50vw - 160px);
-  margin-top:45px;
-  transform: scale(0.74);
+}
+.decor {
+width:300px;
+margin:0 auto;
+z-index:11;
+@media screen and (max-width:1024px) {
+  width:250px;
+}
+@media screen and (max-width:752px) {
+width:170px;
+
+}
 }
 
 .about-app {
@@ -20,13 +48,19 @@
   width: 100vw;
 
   .about-app__container {
-    background-color: $color-bg-secondary;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding-left: 175px;
-    padding-right:175px;
-    width:100vw;
+    width: 100%;
+    background-color:#3C3C3C26 ;
+    @media screen and (max-width:752px) {
+      flex-direction: column;
+      align-items: center;
+      width:100vw;
+      height:100%;
+      object-fit: scale-down;
+      margin-top:100px;
+    }
   }
 
   .about-app__content {
@@ -38,12 +72,18 @@
     row-gap: 38px;
     text-align: center;
     width: 20%;
+    @media screen and (max-width:752px) {
+      flex: row;
+      align-items:center;
+      flex-wrap: wrap;
+      width:40%;
+    }
 
     h3 {
       display: inline-block;
       font-size: 1.1rem;
       font-weight: 400;
-      height: 23px;
+      height: 20%;
     }
 
     span:before {
@@ -65,7 +105,7 @@
     text-decoration: none;
   }
   .btn {
-    //display:block;
+    display:block;
     margin-top: 30px;
     color:$color-font-primary;
     transition:0.2s;
