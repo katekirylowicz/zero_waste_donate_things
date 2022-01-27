@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 const HomeAppRules = () => {
   return (
     <section id="howItWorks">
+      <div className="decor_wrapper">
       <h2>Wystarczą 4 proste kroki </h2>
       <img className="decor" src="assets/Decoration.svg" alt="decor" />
+      </div>
       <div className="about-app">
         <div className="about-app__container">
           <div className="about-app__content">

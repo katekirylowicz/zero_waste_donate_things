@@ -2,9 +2,7 @@
   padding: 60px;
   display: grid;
   place-items: center;
- a {
-   text-decoration: none;;
- }
+ 
   img {
     margin:0 auto;
     transform:scale(0.7);
@@ -14,6 +12,7 @@
     margin: 0 auto;
   }
 
+  
   .form__container {
     width: 500px;
     height:328px;
@@ -22,7 +21,22 @@
     justify-content: center;
     align-items: center;
     background-color: #F0F1F1;
+     
+    a {
+      text-decoration: none;;
+    }
 
+    .log__success {
+      padding: 10px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .log__error {
+      margin-top:3px;
+      font-weight: 600;
+      font-size: 0.7rem;
+       color: rgb(130, 22, 43);
+    }
       label {
         margin:10px 0;
         color :#3C3C3C;
@@ -31,13 +45,13 @@
         justify-content: left;
       }
 
-      input {
+      .log__input {
         border: none;
         background-color:#F0F1F1 ;
         border-bottom: 1px solid #707070;
       }  
-    }
-  }
+    
+  
 
   .register__btns {
     width: 500px;
@@ -59,5 +73,6 @@
       }
     }
   }
-
+  }
+}
 

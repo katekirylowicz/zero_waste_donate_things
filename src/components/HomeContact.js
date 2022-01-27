@@ -49,8 +49,10 @@ return (
 <section id="contact" className="contact">
       
       <div className="contact__form">
+        <div className="decor_wrapper">
       <h5 class ="contact_header">Skontaktuj się z nami</h5>
       <img className="decor" src="assets/Decoration.svg" alt="decor" />
+      </div>
         <form onSubmit={handleSubmit}>
           
           <div className="inputs__container">
