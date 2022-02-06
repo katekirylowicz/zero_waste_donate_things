@@ -1,66 +1,66 @@
 .log_container {
-  padding: 60px;
   display: grid;
+  padding: 60px;
   place-items: center;
  a {
    text-decoration: none;;
  }
   img {
     margin:0 auto;
-    transform:scale(0.7);
     padding-bottom:30px;
+    transform:scale(0.7);
   }
   h5 {
     margin: 0 auto;
   }
 .log__success {
-  padding: 10px;
-  margin-bottom: 15px;
   font-weight: 600;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 .log__error {
-  margin-top:3px;
-  font-weight: 600;
-  font-size: 0.7rem;
    color: rgb(130, 22, 43);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top:3px;
 }
   .form__container {
-    width: 500px;
-    height:328px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #F0F1F1;
+    display: flex;
+    flex-direction: column;
+    height:328px;
+    justify-content: center;
+    width: 500px;
 
       label {
-        margin:10px 0;
         color :#3C3C3C;
         font-size: 1rem;
-        text-align: left;
         justify-content: left;
+        margin:10px 0;
+        text-align: left;
       }
 
       .log__input {
-        border: none;
         background-color:#F0F1F1 ;
+        border: none;
         border-bottom: 1px solid #707070;
       }  
     }
   }
 
   .log__btns {
-    width: 500px;
     display: flex;
     justify-content: space-between;
+    width: 500px;
 
     .log__btn {
+      align-self: center;
+      background: none;
+      border: 1px solid transparent;
+      color: $color-font-primary;
       margin: 50px 0;
       padding: 14px 12px;
-      color: $color-font-primary;
-      background: none;
-      align-self: center;
-      border: 1px solid transparent;
       transition: 0.2s;
 
       &:hover {

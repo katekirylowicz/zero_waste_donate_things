@@ -7,10 +7,10 @@
 }
 .decor_wrapper {
   display: grid;
-  place-items: center;
-  row-gap: 25px;
   padding-bottom: 30px;
   padding-top:60px;
+  place-items: center;
+  row-gap: 25px;
 
  
 .h4 {
@@ -31,8 +31,8 @@
 }
 }
 .decor {
-width:300px;
 margin:0 auto;
+width:300px;
 z-index:11;
 @media screen and (max-width:1024px) {
   width:250px;
@@ -48,18 +48,18 @@ width:170px;
   width: 100vw;
 
   .about-app__container {
+    background-color:#3C3C3C26 ;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     width: 100%;
-    background-color:#3C3C3C26 ;
     @media screen and (max-width:752px) {
-      flex-direction: column;
       align-items: center;
-      width:100vw;
+      flex-direction: column;
       height:100%;
-      object-fit: scale-down;
       margin-top:100px;
+      object-fit: scale-down;
+      width:100vw;
     }
   }
 
@@ -72,12 +72,6 @@ width:170px;
     row-gap: 38px;
     text-align: center;
     width: 20%;
-    @media screen and (max-width:752px) {
-      flex: row;
-      align-items:center;
-      flex-wrap: wrap;
-      width:40%;
-    }
 
     h3 {
       display: inline-block;
@@ -95,6 +89,12 @@ width:170px;
       margin: 0 auto 20px auto;
       width: 70px;
     }
+    @media screen and (max-width:752px) {
+      align-items:center;
+      flex: row;
+      flex-wrap: wrap;
+      width:40%;
+    }
   }
 }
 
@@ -105,9 +105,9 @@ width:170px;
     text-decoration: none;
   }
   .btn {
+    color:$color-font-primary;
     display:block;
     margin-top: 30px;
-    color:$color-font-primary;
     transition:0.2s;
     &:hover {
       transform: scale(1.03);
