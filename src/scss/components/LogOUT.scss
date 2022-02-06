@@ -1,35 +1,35 @@
 .logout {
-  padding: 100px;
   display: grid;
+  padding: 100px;
   place-items: center;
 h5 {
-  font-size:2.5rem;
   color:#3C3C3C;
+  font-size:2.5rem;
 }
 a{
 text-decoration: none;
 }
 }
 .log__success {
-  padding: 10px;
-  margin-bottom: 15px;
   font-weight: 600;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 .log__error {
-  margin-top:3px;
-  font-weight: 600;
-  font-size: 0.7rem;
    color: rgb(130, 22, 43);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top:3px;
 }
 
 
 
 .log_button {
-margin-top:40px;
-transition: 0.2s;
-padding:13px 18px;
-color:#3C3C3C;
 border: 1px solid transparent;
+color:#3C3C3C;
+margin-top:40px;
+padding:13px 18px;
+transition: 0.2s;
 &:hover {
   border: 1px solid #3C3C3C;
   transform:scale(1.05);

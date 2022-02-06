@@ -12,15 +12,15 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <BrowserRouter>
-    <Menu />
-    <Routes>
-    <Route exact path ="/" element={<Home />}/>
-    <Route exact path="/oddaj-rzeczy" element={<Home />} />
-    <Route exact path="/logowanie" element={<LogIN />} />
-    <Route exact path="/rejestracja" element={<Register />} />
-    <Route exact path="/wylogowano" element={<LogOUT />} />
-    <Route  path="*" component={NotFound} />
-    </Routes>
+      <Menu />
+      <Routes basename={process.env.PUBLIC_URL}>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/oddaj-rzeczy" element={<Home />} />
+        <Route exact path="/logowanie" element={<LogIN />} />
+        <Route exact path="/rejestracja" element={<Register />} />
+        <Route exact path="/wylogowano" element={<LogOUT />} />
+        <Route path="*" component={NotFound} />
+      </Routes>
     </BrowserRouter>
   );
 }
