@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zero_waste_donate_things/static/css/main.69cc6e09.chunk.css",
+    "main.js": "/zero_waste_donate_things/static/js/main.7e057ea5.chunk.js",
+    "main.js.map": "/zero_waste_donate_things/static/js/main.7e057ea5.chunk.js.map",
+    "runtime-main.js": "/zero_waste_donate_things/static/js/runtime-main.6a19ac7e.js",
+    "runtime-main.js.map": "/zero_waste_donate_things/static/js/runtime-main.6a19ac7e.js.map",
+    "static/js/2.28d5bca2.chunk.js": "/zero_waste_donate_things/static/js/2.28d5bca2.chunk.js",
+    "static/js/2.28d5bca2.chunk.js.map": "/zero_waste_donate_things/static/js/2.28d5bca2.chunk.js.map",
+    "index.html": "/zero_waste_donate_things/index.html",
+    "precache-manifest.475b88af8b29d485be839156dc8c616e.js": "/zero_waste_donate_things/precache-manifest.475b88af8b29d485be839156dc8c616e.js",
+    "service-worker.js": "/zero_waste_donate_things/service-worker.js",
+    "static/css/main.69cc6e09.chunk.css.map": "/zero_waste_donate_things/static/css/main.69cc6e09.chunk.css.map",
+    "static/js/2.28d5bca2.chunk.js.LICENSE.txt": "/zero_waste_donate_things/static/js/2.28d5bca2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a19ac7e.js",
+    "static/js/2.28d5bca2.chunk.js",
+    "static/css/main.69cc6e09.chunk.css",
+    "static/js/main.7e057ea5.chunk.js"
+  ]
+}
