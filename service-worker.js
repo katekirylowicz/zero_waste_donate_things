@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zero_waste_donate_things/precache-manifest.475b88af8b29d485be839156dc8c616e.js"
+  "/zero_waste_donate_things/precache-manifest.52b5a5b211cb36fce0e8df2f8c67472d.js"
 );
 
 self.addEventListener('message', (event) => {
