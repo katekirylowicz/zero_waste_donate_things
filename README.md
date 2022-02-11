@@ -1,3 +1,6 @@
+# online on:  https://katekirylowicz.github.io/zero_waste_donate_things/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
